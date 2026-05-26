@@ -351,7 +351,7 @@ for names, date in guests:
 
     guest_text = format_guest_names(names)
 
-    cover_filename = f"c_capa_{code}.html"
+    cover_filename = f"{code}.html"
     invite_filename = f"c_{code}.html"
 
     with open(cover_filename, "w", encoding="utf-8") as f:
